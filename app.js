@@ -1,27 +1,18 @@
-module.exports = app =>{
-    app.ready(()=>{
-        const nms = app.nms;
-        nms.run();
-        nms.on('postPublish', (id, StreamPath, args) => {
-            let roomID = StreamPath.match(/\d+/g);
-            streamArr[id] = roomID;
-            axios.get(`:7001/live/start/${roomID}`).then((res ) => {
-                    console.log(res .data);
-                })
-                .catch((err) => {
-                    console.log(err);
-                });
-        });
-        
-        nms.on('donePublish', (id, StreamPath, args) => {
-            let roomID = streamArr[id];
-            axios
-                .get(`:7001/live/shutdown/${roomID}`).then((res ) => {
-                    console.log(res .data);
-                })
-                .catch((err) => {
-                    console.log(err);
-                });
-        });
-    })
-}
+'use strict';
+module.exports = app => {
+  app.ready(() => {
+    const nms = app.nms;
+    const streamArr = [];
+    nms.run();
+    nms.on('postPublish', (id, StreamPath) => {
+      const roomID = StreamPath.match(/\d+/g);
+      streamArr[id] = roomID;
+      app.controller.startLiveStream(roomID);
+    });
+
+    nms.on('donePublish', id => {
+      const roomID = streamArr[id];
+      app.controller.shutLiveStream(roomID);
+    });
+  });
+};

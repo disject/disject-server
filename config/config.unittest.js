@@ -4,11 +4,11 @@ module.exports = appInfo => {
   const config = exports = {
     sequelize: {
       dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
-      database: 'elearning_unittest',
+      database: 'disject_test',
       host: 'localhost',
       port: '3306',
-      username: 'root',
-      password: '',
+      username: 'library',
+      password: '123456',
     },
     io: {
       init: { }, // passed to engine.io

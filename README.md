@@ -6,8 +6,22 @@
 [travis-image]:https://travis-ci.org/disject/disject-server.svg?branch=master
 [travis-url]: https://travis-ci.org/disject/disject-server
 
-
 live video steaming
+
+## Feature
+- Cross platform support Windows/Linux/Unix
+- Support https/wss
+- Support Server Monitor
+- Support Rtsp/Rtmp relay
+
+## TODO
+- [x] Use c++ expansion improve performance
+- [x] stream monitor frontend
+- [x] support WebRTC
+- [x] room manager page
+- [x] user anthorization manager
+- [x] website statistical monitor frontend
+
 
 ## QuickStart
 

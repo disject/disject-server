@@ -142,7 +142,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/tboevil/disject/disject-server/logs/Elearning/egg-schedule.log"
+        "file": "/Users/tboevil/disject/disject-server/logs/Disject/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -211,14 +211,14 @@
     },
     "mediaServer": {},
     "env": "local",
-    "name": "Elearning",
-    "keys": "<String len: 28>",
+    "name": "Disject",
+    "keys": "<String len: 26>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "Elearning",
+      "name": "Disject",
       "version": "1.0.0",
       "description": "live video steaming",
       "private": true,
@@ -313,7 +313,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/tboevil/disject/disject-server/logs/Elearning",
+      "dir": "/Users/tboevil/disject/disject-server/logs/Disject",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -321,7 +321,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "Elearning-web.log",
+      "appLogName": "Disject-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",

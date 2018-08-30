@@ -15,11 +15,11 @@ module.exports = appInfo => {
       init: {}, // passed to engine.io
       namespace: {
         '/': {
-          connectionMiddleware: ['auth'],
+          connectionMiddleware: [ 'auth' ],
           packetMiddleware: [],
         },
         '/room': {
-          connectionMiddleware: ['auth'],
+          connectionMiddleware: [ 'auth' ],
           packetMiddleware: [],
         },
       },
@@ -67,13 +67,13 @@ module.exports = appInfo => {
         chunk_size: 60000,
         gop_cache: true,
         ping: 60,
-        ping_timeout: 30
+        ping_timeout: 30,
       },
       http: {
         port: 9090,
-        allow_origin: '*'
-      }
-    }
+        allow_origin: '*',
+      },
+    },
   };
 
   // use for cookie sign key, should change to your own and keep security
@@ -83,6 +83,5 @@ module.exports = appInfo => {
   config.middleware = [];
 
   return config;
-
-
 };
+

@@ -12,13 +12,11 @@ class LiveController extends Controller {
     const response = await this.live.getLiveList(offset, limit);
     this.ctx.body = response;
   }
-  async startLiveStream() {
-    const { roomID } = this.ctx.params;
+  async startLiveStream(roomID) {
     const response = await this.live.startLiveStream(roomID);
     this.ctx.body = response;
   }
-  async shutLiveStream() {
-    const { roomID } = this.ctx.params;
+  async shutLiveStream(roomID) {
     const response = await this.live.shutLiveStream(roomID);
     this.ctx.body = response;
   }
