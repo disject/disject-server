@@ -9,7 +9,7 @@
 
 
 ## Feature
-- 跨平台支持 Windows/Linux/Unix
+- 跨平台支持 Windows/Linux/Unix
 - 支持 https/wss
 - 支持实时弹幕
 

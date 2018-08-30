@@ -24,7 +24,7 @@ Live Video Stream on a Node.js Server
 - [ ] Unit test coverage exceeds 80%
 - [ ] Make a demo and official guide
 
-## Dependencies
+## Dependencies
 
 - egg.js
 - Node-Media-Server
