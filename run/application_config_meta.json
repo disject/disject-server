@@ -1,29 +1,29 @@
 {
   "sequelize": {
-    "dialect": "/Users/tboevil/disject/disject-server/config/config.default.js",
-    "database": "/Users/tboevil/disject/disject-server/config/config.default.js",
-    "host": "/Users/tboevil/disject/disject-server/config/config.default.js",
-    "port": "/Users/tboevil/disject/disject-server/config/config.default.js",
-    "username": "/Users/tboevil/disject/disject-server/config/config.default.js",
-    "password": "/Users/tboevil/disject/disject-server/config/config.default.js",
+    "dialect": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+    "database": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+    "host": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+    "port": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+    "username": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+    "password": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
     "timezone": "/Users/tboevil/disject/disject-server/config/config.default.js"
   },
   "io": {
-    "init": "/Users/tboevil/disject/disject-server/config/config.default.js",
+    "init": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
     "namespace": {
       "/": {
-        "connectionMiddleware": "/Users/tboevil/disject/disject-server/config/config.default.js",
-        "packetMiddleware": "/Users/tboevil/disject/disject-server/config/config.default.js"
+        "connectionMiddleware": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+        "packetMiddleware": "/Users/tboevil/disject/disject-server/config/config.unittest.js"
       },
       "/room": {
-        "connectionMiddleware": "/Users/tboevil/disject/disject-server/config/config.default.js",
-        "packetMiddleware": "/Users/tboevil/disject/disject-server/config/config.default.js"
+        "connectionMiddleware": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+        "packetMiddleware": "/Users/tboevil/disject/disject-server/config/config.unittest.js"
       }
     }
   },
   "security": {
     "csrf": {
-      "enable": "/Users/tboevil/disject/disject-server/config/config.default.js",
+      "enable": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
       "useSession": "/Users/tboevil/disject/disject-server/node_modules/egg-security/config/config.default.js",
       "ignoreJSON": "/Users/tboevil/disject/disject-server/node_modules/egg-security/config/config.default.js",
       "cookieName": "/Users/tboevil/disject/disject-server/node_modules/egg-security/config/config.default.js",
@@ -40,7 +40,7 @@
       "value": "/Users/tboevil/disject/disject-server/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/tboevil/disject/disject-server/node_modules/egg-security/config/config.local.js",
+      "enable": "/Users/tboevil/disject/disject-server/node_modules/egg-security/config/config.default.js",
       "maxAge": "/Users/tboevil/disject/disject-server/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/Users/tboevil/disject/disject-server/node_modules/egg-security/config/config.default.js"
     },
@@ -74,14 +74,14 @@
     }
   },
   "cors": {
-    "origin": "/Users/tboevil/disject/disject-server/config/config.default.js",
-    "allowMethods": "/Users/tboevil/disject/disject-server/config/config.default.js"
+    "origin": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+    "allowMethods": "/Users/tboevil/disject/disject-server/config/config.unittest.js"
   },
   "session": {
-    "key": "/Users/tboevil/disject/disject-server/config/config.default.js",
-    "maxAge": "/Users/tboevil/disject/disject-server/config/config.default.js",
-    "httpOnly": "/Users/tboevil/disject/disject-server/config/config.default.js",
-    "encrypt": "/Users/tboevil/disject/disject-server/config/config.default.js"
+    "key": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+    "maxAge": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+    "httpOnly": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+    "encrypt": "/Users/tboevil/disject/disject-server/config/config.unittest.js"
   },
   "nms": {
     "rtmp": {
@@ -96,8 +96,8 @@
       "allow_origin": "/Users/tboevil/disject/disject-server/config/config.default.js"
     }
   },
-  "keys": "/Users/tboevil/disject/disject-server/config/config.default.js",
-  "middleware": "/Users/tboevil/disject/disject-server/config/config.default.js",
+  "keys": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
+  "middleware": "/Users/tboevil/disject/disject-server/config/config.unittest.js",
   "helper": {
     "shtml": "/Users/tboevil/disject/disject-server/node_modules/egg-security/config/config.default.js"
   },
@@ -118,7 +118,7 @@
     "cookieMaxAge": "/Users/tboevil/disject/disject-server/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/tboevil/disject/disject-server/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/tboevil/disject/disject-server/node_modules/egg-watcher/config/config.unittest.js",
     "eventSources": {
       "default": "/Users/tboevil/disject/disject-server/node_modules/egg-watcher/config/config.default.js",
       "development": "/Users/tboevil/disject/disject-server/node_modules/egg-watcher/config/config.default.js"
@@ -134,13 +134,6 @@
     "files": "/Users/tboevil/disject/disject-server/node_modules/egg-multipart/config/config.default.js",
     "fileExtensions": "/Users/tboevil/disject/disject-server/node_modules/egg-multipart/config/config.default.js",
     "whitelist": "/Users/tboevil/disject/disject-server/node_modules/egg-multipart/config/config.default.js"
-  },
-  "development": {
-    "watchDirs": "/Users/tboevil/disject/disject-server/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/tboevil/disject/disject-server/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/tboevil/disject/disject-server/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/tboevil/disject/disject-server/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/tboevil/disject/disject-server/node_modules/egg-development/config/config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
@@ -167,7 +160,7 @@
   },
   "view": {
     "root": "/Users/tboevil/disject/disject-server/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/tboevil/disject/disject-server/node_modules/egg-view/config/config.local.js",
+    "cache": "/Users/tboevil/disject/disject-server/node_modules/egg-view/config/config.default.js",
     "defaultExtension": "/Users/tboevil/disject/disject-server/node_modules/egg-view/config/config.default.js",
     "defaultViewEngine": "/Users/tboevil/disject/disject-server/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/tboevil/disject/disject-server/node_modules/egg-view/config/config.default.js"
@@ -284,17 +277,15 @@
     "encoding": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
     "env": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
     "level": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.unittest.js",
     "disableConsoleAfterReady": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
     "outputJSON": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.unittest.js",
     "appLogName": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
     "coreLogName": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
     "agentLogName": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
     "errorLogName": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.local.js"
-    },
+    "coreLogger": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js",
     "allowDebugAtProd": "/Users/tboevil/disject/disject-server/node_modules/egg/config/config.default.js"
   },
   "httpclient": {

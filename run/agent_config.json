@@ -98,13 +98,6 @@
       "fileExtensions": [],
       "whitelist": null
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
@@ -130,18 +123,18 @@
     },
     "view": {
       "root": "/Users/tboevil/disject/disject-server/app/view",
-      "cache": false,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
     "sequelize": {
       "dialect": "mysql",
-      "database": "disject",
+      "database": "disject_test",
       "host": "localhost",
       "port": "3306",
-      "username": "library",
-      "password": "<String len: 6>",
+      "username": "root",
+      "password": "<String len: 0>",
       "timezone": "Asia/Shanghai"
     },
     "io": {
@@ -172,7 +165,7 @@
       "failureHandler": "<Function failureHandler>"
     },
     "mediaServer": {},
-    "env": "local",
+    "env": "unittest",
     "name": "Disject",
     "keys": "<String len: 26>",
     "proxy": false,
@@ -276,19 +269,17 @@
     "logger": {
       "dir": "/Users/tboevil/disject/disject-server/logs/Disject",
       "encoding": "utf8",
-      "env": "local",
+      "env": "unittest",
       "level": "INFO",
-      "consoleLevel": "INFO",
+      "consoleLevel": "WARN",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": true,
+      "buffer": false,
       "appLogName": "Disject-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": true,
       "type": "agent"
     },
@@ -442,21 +433,6 @@
       "path": "/Users/tboevil/disject/disject-server/node_modules/egg-multipart",
       "version": "2.0.0"
     },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-development",
-      "version": "2.2.0"
-    },
     "schedule": {
       "enable": true,
       "package": "egg-schedule",
@@ -579,6 +555,15 @@
       "from": "/Users/tboevil/disject/disject-server/config/plugin.js",
       "path": "/Users/tboevil/disject/disject-server/node_modules/egg-media-server",
       "version": "1.0.6"
+    },
+    "egg-mock": {
+      "enable": true,
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-mock",
+      "name": "egg-mock",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "version": "3.17.0"
     }
   }
 }

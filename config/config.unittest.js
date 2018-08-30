@@ -7,8 +7,8 @@ module.exports = appInfo => {
       database: 'disject_test',
       host: 'localhost',
       port: '3306',
-      username: 'library',
-      password: '123456',
+      username: 'root',
+      password: '',
     },
     io: {
       init: { }, // passed to engine.io

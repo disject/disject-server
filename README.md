@@ -5,7 +5,7 @@
 [travis-image]:https://travis-ci.org/disject/disject-server.svg?branch=master
 [travis-url]: https://travis-ci.org/disject/disject-server
 
-live video steaming
+Live Video Stream on a Node.js Server
 
 ## Feature
 - Cross platform support Windows/Linux/Unix
@@ -21,6 +21,12 @@ live video steaming
 - [x] Support video recording
 - [x] Support WebRTC
 - [x] Use c++ expansion improve performance
+
+## Dependencies
+
+- egg.js
+- Node-Media-Server
+- socket.io
 
 ## QuickStart
 

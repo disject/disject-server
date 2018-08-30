@@ -1,6 +1,6 @@
 # Disject
 
-live video steaming
+基于nodejs和node-media-server实现的直播平台
 
 [![build status][travis-image]][travis-url]
 
