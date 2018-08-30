@@ -21,6 +21,8 @@ Live Video Stream on a Node.js Server
 - [ ] Support video recording
 - [ ] Support WebRTC
 - [ ] Use c++ expansion improve performance
+- [ ] Unit test coverage exceeds 80%
+- [ ] Make a demo and official guide
 
 ## Dependencies
 

@@ -4,7 +4,7 @@ module.exports = appInfo => {
   const config = exports = {
     sequelize: {
       dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
-      database: 'disject_test',
+      database: 'disject_unittest',
       host: 'localhost',
       port: '3306',
       username: 'root',
