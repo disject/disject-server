@@ -23,6 +23,10 @@ exports.bcrypt = {
 exports.userrole = {
   package: 'egg-userrole',
 };
+exports.mediaServer={
+  enable: true,
+  package: 'egg-media-server',
+}
 // exports.passport = {
 //   enable:true,
 //   package:'egg-passport'

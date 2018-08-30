@@ -4,22 +4,22 @@ module.exports = appInfo => {
   const config = exports = {
     sequelize: {
       dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
-      database: 'elearning',
+      database: 'disject',
       host: 'localhost',
       port: '3306',
-      username: 'elearning',
+      username: 'library',
       password: '123456',
       timezone: 'Asia/Shanghai',
     },
     io: {
-      init: { }, // passed to engine.io
+      init: {}, // passed to engine.io
       namespace: {
         '/': {
-          connectionMiddleware: [ 'auth' ],
+          connectionMiddleware: ['auth'],
           packetMiddleware: [],
         },
         '/room': {
-          connectionMiddleware: [ 'auth' ],
+          connectionMiddleware: ['auth'],
           packetMiddleware: [],
         },
       },
@@ -61,7 +61,19 @@ module.exports = appInfo => {
       httpOnly: true,
       encrypt: true,
     },
-
+    nms: {
+      rtmp: {
+        port: 1935,
+        chunk_size: 60000,
+        gop_cache: true,
+        ping: 60,
+        ping_timeout: 30
+      },
+      http: {
+        port: 9090,
+        allow_origin: '*'
+      }
+    }
   };
 
   // use for cookie sign key, should change to your own and keep security
@@ -74,4 +86,3 @@ module.exports = appInfo => {
 
 
 };
-

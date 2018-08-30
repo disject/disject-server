@@ -87,27 +87,27 @@
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-session@3.1.0@egg-session/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-security@2.2.2@egg-security/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-onerror@2.0.0@egg-onerror/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-i18n@2.0.0@egg-i18n/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-watcher@3.0.0@egg-watcher/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-multipart@2.0.0@egg-multipart/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-schedule@3.3.0@egg-schedule/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-static@2.1.1@egg-static/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-view@2.1.0@egg-view/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-sequelize@3.1.4@egg-sequelize/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-socket.io@4.0.8@egg-socket.io/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-cors@2.0.0@egg-cors/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-validate@1.0.0@egg-validate/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-bcrypt@1.1.0@egg-bcrypt/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-userrole@2.0.0@egg-userrole/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-mock@3.17.1@egg-mock/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/locales",
-        "/home/tboevil/work/Elearning/http-server/node_modules/_egg-mock@3.17.1@egg-mock/lib/tmp/config/locales",
-        "/home/tboevil/work/Elearning/http-server/config/locales"
+        "/Users/tboevil/disject/disject-server/node_modules/egg-session/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-security/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-jsonp/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-onerror/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-i18n/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-watcher/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-multipart/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-development/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-schedule/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-logrotator/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-static/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-view/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-sequelize/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-socket.io/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-cors/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-validate/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-bcrypt/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-userrole/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg-media-server/config/locales",
+        "/Users/tboevil/disject/disject-server/node_modules/egg/config/locales",
+        "/Users/tboevil/disject/disject-server/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -117,8 +117,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-watcher@3.0.0@egg-watcher/lib/event-sources/default",
-        "development": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-watcher@3.0.0@egg-watcher/lib/event-sources/development"
+        "default": "/Users/tboevil/disject/disject-server/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/tboevil/disject/disject-server/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -132,10 +132,17 @@
       "fileExtensions": [],
       "whitelist": null
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/home/tboevil/work/Elearning/http-server/logs/Elearning/egg-schedule.log"
+        "file": "/Users/tboevil/disject/disject-server/logs/Elearning/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -149,7 +156,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/home/tboevil/work/Elearning/http-server/app/public",
+      "dir": "/Users/tboevil/disject/disject-server/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -157,23 +164,26 @@
       "files": "<LRU>"
     },
     "view": {
-      "root": "/home/tboevil/work/Elearning/http-server/app/view",
-      "cache": true,
+      "root": "/Users/tboevil/disject/disject-server/app/view",
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
     "sequelize": {
       "dialect": "mysql",
-      "database": "elearning_unittest",
+      "database": "disject",
       "host": "localhost",
       "port": "3306",
-      "username": "elearning",
+      "username": "library",
       "password": "<String len: 6>",
       "timezone": "Asia/Shanghai"
     },
     "io": {
-      "init": {},
+      "init": {
+        "path": "/socket.io",
+        "allowRequest": "<Function bound >"
+      },
       "namespace": {
         "/": {
           "connectionMiddleware": [
@@ -199,7 +209,8 @@
     "userrole": {
       "failureHandler": "<Function failureHandler>"
     },
-    "env": "unittest",
+    "mediaServer": {},
+    "env": "local",
     "name": "Elearning",
     "keys": "<String len: 28>",
     "proxy": false,
@@ -216,6 +227,7 @@
         "egg": "^2.2.1",
         "egg-bcrypt": "^1.1.0",
         "egg-cors": "^2.0.0",
+        "egg-media-server": "^1.0.6",
         "egg-passport": "^2.0.1",
         "egg-scripts": "^2.5.0",
         "egg-sequelize": "^3.1.2",
@@ -268,9 +280,9 @@
       "author": "tboevil",
       "license": "MIT"
     },
-    "baseDir": "/home/tboevil/work/Elearning/http-server",
-    "HOME": "/home/tboevil",
-    "rundir": "/home/tboevil/work/Elearning/http-server/run",
+    "baseDir": "/Users/tboevil/disject/disject-server",
+    "HOME": "/Users/tboevil",
+    "rundir": "/Users/tboevil/disject/disject-server/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -301,19 +313,21 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/home/tboevil/work/Elearning/http-server/logs/Elearning",
+      "dir": "/Users/tboevil/disject/disject-server/logs/Elearning",
       "encoding": "utf8",
-      "env": "unittest",
+      "env": "local",
       "level": "INFO",
-      "consoleLevel": "WARN",
+      "consoleLevel": "INFO",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": false,
+      "buffer": true,
       "appLogName": "Elearning-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": true,
       "type": "application"
     },
@@ -350,7 +364,6 @@
       "bodyParser",
       "overrideMethod",
       "session",
-      "clusterAppMock",
       "securities",
       "i18n"
     ],
@@ -363,14 +376,38 @@
       }
     },
     "clusterClient": {
-      "maxWaitTime": 60000,
       "responseTimeout": 60000
     },
-    "onClientError": null,
+    "nms": {
+      "rtmp": {
+        "port": 1935,
+        "chunk_size": 60000,
+        "gop_cache": true,
+        "ping": 60,
+        "ping_timeout": 30
+      },
+      "http": {
+        "port": 9090,
+        "allow_origin": "*",
+        "webroot": "./public",
+        "mediaroot": "./media"
+      }
+    },
     "middleware": [],
-    "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": "~config~middleware",
-    "appMiddleware": "~config~middleware",
+    "coreMiddlewares": [
+      "cors",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n"
+    ],
+    "appMiddlewares": [],
+    "appMiddleware": [],
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
@@ -392,8 +429,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-session@3.1.0@egg-session",
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -405,8 +442,8 @@
         "session"
       ],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-security@2.2.2@egg-security",
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-security",
       "version": "2.2.2"
     },
     "jsonp": {
@@ -418,8 +455,8 @@
         "security"
       ],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -431,8 +468,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-onerror@2.0.0@egg-onerror",
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -442,8 +479,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-i18n@2.0.0@egg-i18n",
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -453,8 +490,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-watcher@3.0.0@egg-watcher",
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -464,9 +501,24 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-multipart@2.0.0@egg-multipart",
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-multipart",
       "version": "2.0.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-development",
+      "version": "2.2.0"
     },
     "schedule": {
       "enable": true,
@@ -475,8 +527,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-schedule@3.3.0@egg-schedule",
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -488,8 +540,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-logrotator@3.0.3@egg-logrotator",
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -499,9 +551,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-static@2.1.1@egg-static",
-      "version": "2.1.1"
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-static",
+      "version": "2.1.0"
     },
     "view": {
       "enable": true,
@@ -510,8 +562,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/node_modules/_egg@2.8.1@egg/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-view@2.1.0@egg-view",
+      "from": "/Users/tboevil/disject/disject-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-view",
       "version": "2.1.0"
     },
     "sequelize": {
@@ -521,9 +573,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-sequelize@3.1.4@egg-sequelize",
-      "version": "3.1.4"
+      "from": "/Users/tboevil/disject/disject-server/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-sequelize",
+      "version": "3.1.2"
     },
     "io": {
       "enable": true,
@@ -532,9 +584,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-socket.io@4.0.8@egg-socket.io",
-      "version": "4.0.8"
+      "from": "/Users/tboevil/disject/disject-server/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-socket.io",
+      "version": "4.0.7"
     },
     "cors": {
       "enable": true,
@@ -543,8 +595,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-cors@2.0.0@egg-cors",
+      "from": "/Users/tboevil/disject/disject-server/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-cors",
       "version": "2.0.0"
     },
     "validate": {
@@ -554,9 +606,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-validate@1.0.0@egg-validate",
-      "version": "1.0.0"
+      "from": "/Users/tboevil/disject/disject-server/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-validate",
+      "version": "1.1.1"
     },
     "bcrypt": {
       "enable": true,
@@ -565,8 +617,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-bcrypt@1.1.0@egg-bcrypt",
+      "from": "/Users/tboevil/disject/disject-server/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-bcrypt",
       "version": "1.1.0"
     },
     "userrole": {
@@ -576,18 +628,20 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/tboevil/work/Elearning/http-server/config/plugin.js",
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-userrole@2.0.0@egg-userrole",
+      "from": "/Users/tboevil/disject/disject-server/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-userrole",
       "version": "2.0.0"
     },
-    "egg-mock": {
+    "mediaServer": {
       "enable": true,
-      "path": "/home/tboevil/work/Elearning/http-server/node_modules/_egg-mock@3.17.1@egg-mock",
-      "name": "egg-mock",
+      "package": "egg-media-server",
+      "name": "mediaServer",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "version": "3.17.1"
+      "from": "/Users/tboevil/disject/disject-server/config/plugin.js",
+      "path": "/Users/tboevil/disject/disject-server/node_modules/egg-media-server",
+      "version": "1.0.6"
     }
   }
 }
