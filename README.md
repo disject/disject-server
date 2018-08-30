@@ -1,4 +1,4 @@
-# Elearning
+# Disject
 
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
