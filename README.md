@@ -13,14 +13,14 @@ live video steaming
 - Support Real-time barrage
 
 ## TODO
-- [x] Room manager frontendÍ
-- [x] Stream monitor frontend
-- [x] Website statistical monitor frontend
-- [x] User anthorization system
-- [x] Further improvement the communication between the media server and the http server
-- [x] Support video recording
-- [x] Support WebRTC
-- [x] Use c++ expansion improve performance
+- [ ] Room manager frontendÍ
+- [ ] Stream monitor frontend
+- [ ] Website statistical monitor frontend
+- [ ] User anthorization system
+- [ ] Further improvement the communication between the media server and the http server
+- [ ] Support video recording
+- [ ] Support WebRTC
+- [ ] Use c++ expansion improve performance
 
 ## QuickStart
 
