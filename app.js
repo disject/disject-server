@@ -1,4 +1,4 @@
-'use strict';
+
 module.exports = app => {
   app.ready(() => {
     const nms = app.nms;

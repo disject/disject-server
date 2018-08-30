@@ -1,5 +1,5 @@
 // {app_root}/app/io/controller/default.js
-'use strict';
+
 
 const Controller = require('egg').Controller;
 

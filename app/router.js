@@ -1,4 +1,4 @@
-'use strict';
+
 
 /**
  * @param {Egg.Application} app - egg application
@@ -44,18 +44,15 @@ module.exports = app => {
 
 
   // 直播相关接口
-  router.get('/live', controller.api.liveController.getLiveList);
+  router.get('/api/live', controller.api.liveController.getLiveList);
 
-  router.get('/live/start/:roomID', controller.api.liveController.startLiveStream);
+  router.put('/api/live/:roomID/info', owned, controller.api.liveController.changeRoomInfo);
 
-  router.get('/live/shutdown/:roomID', controller.api.liveController.shutLiveStream);
+  router.post('/api/live/application', isTeacher, controller.api.liveController.applicationRoom);
 
-  router.put('/live/:roomID/info', owned, controller.api.liveController.changeRoomInfo);
+  router.delete('/api/live/:roomID', owned, controller.api.liveController.startLiveStream);
 
-  router.post('/live/application', isTeacher, controller.api.liveController.applicationRoom);
-
-  router.delete('/live/:roomID', owned, controller.api.liveController.startLiveStream);
-
+  router.get('/*', controller.renderController.index);
   // router.get('/live/search', controller.api.liveController.search);
 
 

@@ -136,56 +136,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/live",
-    "regexp": "/^\\/live(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [
-      {
-        "name": "roomID",
-        "prefix": "/",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      }
-    ],
-    "path": "/live/start/:roomID",
-    "regexp": "/^\\/live\\/start\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [
-      {
-        "name": "roomID",
-        "prefix": "/",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      }
-    ],
-    "path": "/live/shutdown/:roomID",
-    "regexp": "/^\\/live\\/shutdown\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "path": "/api/live",
+    "regexp": "/^\\/api\\/live(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -207,8 +159,8 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/live/:roomID/info",
-    "regexp": "/^\\/live\\/((?:[^\\/]+?))\\/info(?:\\/(?=$))?$/",
+    "path": "/api/live/:roomID/info",
+    "regexp": "/^\\/api\\/live\\/((?:[^\\/]+?))\\/info(?:\\/(?=$))?$/",
     "stack": [
       "anonymous",
       "wrappedController"
@@ -220,8 +172,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/live/application",
-    "regexp": "/^\\/live\\/application(?:\\/(?=$))?$/",
+    "path": "/api/live/application",
+    "regexp": "/^\\/api\\/live\\/application(?:\\/(?=$))?$/",
     "stack": [
       "anonymous",
       "wrappedController"
@@ -244,10 +196,34 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/live/:roomID",
-    "regexp": "/^\\/live\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "path": "/api/live/:roomID",
+    "regexp": "/^\\/api\\/live\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": 0,
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": true,
+        "pattern": ".*"
+      }
+    ],
+    "path": "/*",
+    "regexp": "/^\\/((?:.*))(?:\\/(?=$))?$/",
+    "stack": [
       "wrappedController"
     ]
   }

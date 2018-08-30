@@ -1,4 +1,4 @@
-'use strict';
+
 module.exports = function(app) {
   app.role.use('admin', ctx => {
     return ctx.session.user && ctx.session.user.isAdmin;

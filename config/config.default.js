@@ -1,5 +1,5 @@
-'use strict';
-// const path = require('path');
+
+const path = require('path');
 module.exports = appInfo => {
   const config = exports = {
     sequelize: {
@@ -24,27 +24,10 @@ module.exports = appInfo => {
         },
       },
     },
-    // view:{
-    //   root: path.join(appInfo.baseDir, 'app/view'),
-    //   mapping: {
-    //     '.html': 'html',
-    //   },
-    // },
-    // assets:{
-    //   publicPath: '/public/',
-    //   devServer: {
-    //     debug: true,
-    //     command: 'vue serve',
-    //     cwd:path.join(appInfo.baseDir, 'app/assets/src'),
-    //     port: 8000,
-    //     env: {
-    //       BROWSER: 'none',
-    //       ESLINT: 'none',
-    //       SOCKET_SERVER: 'http://127.0.0.1:8080',
-    //       PUBLIC_PATH: 'http://127.0.0.1:8080',
-    //     },
-    //   },
-    // },
+    static: {
+      prefix: '/public/',
+      dir: path.join(appInfo.baseDir, 'public'),
+    },
     security: {
       csrf: {
         enable: false,

@@ -1,0 +1,100 @@
+{
+  "about/about.js": "/public/js/about/about.js",
+  "js/chunk/0.js": "/public/js/chunk/0.js",
+  "js/chunk/1.js": "/public/js/chunk/1.js",
+  "dynamic/dynamic.js": "/public/js/dynamic/dynamic.js",
+  "element/element.js": "/public/js/element/element.js",
+  "index/index.js": "/public/js/index/index.js",
+  "app/app.js": "/public/js/app/app.js",
+  "router/router.js": "/public/js/router/router.js",
+  "sass/sass.js": "/public/js/sass/sass.js",
+  "test/test.js": "/public/js/test/test.js",
+  "js/chunk/2.js": "/public/js/chunk/2.js",
+  "css/module/module.js": "/public/js/css/module/module.js",
+  "less/less.js": "/public/js/less/less.js",
+  "img/egg-vue-webpack-dev.png": "/public/img/egg-vue-webpack-dev.png",
+  "img/logo.png": "/public/img/logo.png",
+  "font/fontawesome-webfont.ttf": "/public/font/fontawesome-webfont.ttf",
+  "font/element-icons.ttf": "/public/font/element-icons.ttf",
+  "font/element-icons.woff": "/public/font/element-icons.woff",
+  "img/loading.gif": "/public/img/loading.gif",
+  "js/vendor.js": "/public/js/vendor.js",
+  "vendor.js": "/public/js/vendor.js",
+  "deps": {
+    "about/about.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/about/about.js"
+      ],
+      "css": []
+    },
+    "app/app.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/app/app.js"
+      ],
+      "css": []
+    },
+    "css/module/module.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/css/module/module.js"
+      ],
+      "css": []
+    },
+    "dynamic/dynamic.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/dynamic/dynamic.js"
+      ],
+      "css": []
+    },
+    "element/element.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/element/element.js"
+      ],
+      "css": []
+    },
+    "index/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/index/index.js"
+      ],
+      "css": []
+    },
+    "less/less.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/less/less.js"
+      ],
+      "css": []
+    },
+    "router/router.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/router/router.js"
+      ],
+      "css": []
+    },
+    "sass/sass.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/sass/sass.js"
+      ],
+      "css": []
+    },
+    "test/test.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/test/test.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}

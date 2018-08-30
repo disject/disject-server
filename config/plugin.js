@@ -1,4 +1,4 @@
-'use strict';
+
 
 exports.sequelize = {
   enable: true,
@@ -26,6 +26,10 @@ exports.userrole = {
 exports.mediaServer = {
   enable: true,
   package: 'egg-media-server',
+};
+exports.vuessr = {
+  enable: true,
+  package: 'egg-view-vue-ssr',
 };
 // exports.passport = {
 //   enable:true,

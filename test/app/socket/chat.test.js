@@ -1,4 +1,4 @@
-'use strict';
+
 
 const { assert } = require('egg-mock/bootstrap');
 const mm = require('egg-mock');

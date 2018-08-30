@@ -1,4 +1,4 @@
-'use strict';
+
 const ms = require('ms');
 const Controller = require('egg').Controller;
 
