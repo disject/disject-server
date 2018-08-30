@@ -3,10 +3,9 @@
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
 
-[travis-image]:https://travis-ci.com/sansroman/E-learning-Http-server.svg?branch=master
-[travis-url]: https://travis-ci.org/sansroman/E-learning-Http-server
-[codecov-image]: https://codecov.io/gh/sansroman/E-learning-Http-server/branch/master/graph/badge.svg
-[codecov-url]: https://codecov.io/gh/sansroman/E-learning-Http-server
+[travis-image]:https://travis-ci.org/disject/disject-server.svg?branch=master
+[travis-url]: https://travis-ci.org/disject/disject-server
+
 
 live video steaming
 
