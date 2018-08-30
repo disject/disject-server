@@ -22,7 +22,7 @@ Live Video Stream on a Node.js Server
 - [ ] Support WebRTC
 - [ ] Use c++ expansion improve performance
 
-## Dependencies
+## Dependencies
 
 - egg.js
 - Node-Media-Server
