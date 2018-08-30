@@ -22,7 +22,7 @@ Live Video Stream on a Node.js Server
 - [ ] Support WebRTC
 - [ ] Use c++ expansion improve performance
 - [ ] Unit test coverage exceeds 80%
-- [ ] Make a demo and official guide
+- [ ] Make a demo and official guide
 
 ## Dependencies
 
