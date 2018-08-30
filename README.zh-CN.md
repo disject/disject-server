@@ -2,6 +2,27 @@
 
 live video steaming
 
+[![build status][travis-image]][travis-url]
+[travis-image]:https://travis-ci.org/disject/disject-server.svg?branch=master
+[travis-url]: https://travis-ci.org/disject/disject-server
+
+
+## Feature
+- 跨平台支持 Windows/Linux/Unix
+- 支持 https/wss
+- 支持实时弹幕
+
+
+## TODO
+- [x] 房间管理
+- [x] 视频流监控
+- [x] 网站统计
+- [x] 用户权限认证系统
+- [x] 进一步改善流媒体服务器与http服务器之间的通信
+- [x] 支持视频录制
+- [x] 支持WebRTC
+- [x] 使用c++模块改善转码的速度
+
 ## 快速入门
 
 <!-- 在此次添加使用文档 -->

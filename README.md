@@ -1,8 +1,6 @@
 # Disject
 
 [![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-
 [travis-image]:https://travis-ci.org/disject/disject-server.svg?branch=master
 [travis-url]: https://travis-ci.org/disject/disject-server
 
@@ -11,17 +9,17 @@ live video steaming
 ## Feature
 - Cross platform support Windows/Linux/Unix
 - Support https/wss
-- Support Server Monitor
-- Support Rtsp/Rtmp relay
+- Support Real-time barrage
 
 ## TODO
+- [x] Room manager frontendÍ
+- [x] Stream monitor frontend
+- [x] Website statistical monitor frontend
+- [x] User anthorization system
+- [x] Further improvement the communication between the media server and the http server
+- [x] Support video recording
+- [x] Support WebRTC
 - [x] Use c++ expansion improve performance
-- [x] stream monitor frontend
-- [x] support WebRTC
-- [x] room manager page
-- [x] user anthorization manager
-- [x] website statistical monitor frontend
-
 
 ## QuickStart
 
