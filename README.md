@@ -1,9 +1,12 @@
 # Disject
 
 [![build status][travis-image]][travis-url]
+[![NPM version][npm-image]][npm-url]
 
 [travis-image]:https://travis-ci.org/disject/disject-server.svg?branch=master
 [travis-url]: https://travis-ci.org/disject/disject-server
+[npm-image]: https://img.shields.io/npm/v/disject-server.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/disject-server
 
 Live Video Stream on a Node.js Server
 
